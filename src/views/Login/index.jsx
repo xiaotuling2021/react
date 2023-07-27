@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 const Login = () => {
   const navigate = useNavigate()
   const onsubmit = () => {
-    navigate("/home")
+    navigate("/page1")
   }
   return (
     <div className={styles.container}>
